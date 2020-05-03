@@ -36,7 +36,7 @@ const BoardTools: React.FC<Props> = props => (
                 disabled={props.activeTool === Tool.Main}
                 onClick={() => props.onChange?.(Tool.Main)}
             >
-                Block
+                Main
             </ToolButton>
         </li>
         <li>
