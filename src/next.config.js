@@ -22,15 +22,6 @@ module.exports = withWorkers({
             }
         });
 
-        // config.module.rules.push({
-        //     test: /\.worker\.ts$/,
-        //     loader: 'worker-loader',
-        //     options: {
-        //         name: 'static/[hash].worker.js',
-        //         publicPath: '/_next/'
-        //     }
-        // });
-        // config.output.globalObject = `(typeof self !== 'undefined' ? self : this)`;
         return config;
     }
 });
