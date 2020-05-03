@@ -8,9 +8,9 @@
     },
     "scripts": {
         "dev": "next src",
-        "build": "next build src && next export src -o build",
+        "build": "next build src",
         "start": "next start src",
-        "export": "yarn build && next export",
+        "export": "yarn build && next export src -o build",
         "test": "jest"
     },
     "dependencies": {
