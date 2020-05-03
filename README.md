@@ -8,4 +8,4 @@ This project is designed to solve "Unblock Me"-style mazes using Breadth-first s
 -   Solution calculation algorithm
 -   Easy to use traversal of solution steps
 -   Web worker support to perform heavy computations in the background
--   Progress simulation for
+-   Progress simulation
