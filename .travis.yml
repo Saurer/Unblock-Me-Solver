@@ -12,6 +12,7 @@ script:
   - yarn
   - CI=true yarn test --passWithNoTests --ci
   - yarn build
+  - touch build/.nojekyll
 
 deploy:
   provider: pages
