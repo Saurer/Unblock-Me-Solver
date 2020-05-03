@@ -1,6 +1,7 @@
 const withWorkers = require('@zeit/next-workers');
 
 module.exports = withWorkers({
+    target: 'serverless',
     workerLoaderOptions: { inline: true },
     webpack: config => {
         config.resolve.modules = [__dirname, ...config.resolve.modules];
